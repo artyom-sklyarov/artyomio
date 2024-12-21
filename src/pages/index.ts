@@ -6,12 +6,12 @@ export const routes = [
     path: '/',
     name: 'home',
     component: HomePage,
-    meta: { transition: 'fade' }
+    meta: { transition: 'fade', title: 'Artyom Sklyarov | Web developer' }
   },
   {
     path: '/contacts',
     component: ContactPage,
-    meta: { transition: 'fade' }
+    meta: { transition: 'fade', title: 'Contact Me | Artyom Sklyarov' }
   },
   {
     path: '/:pathMatch(.*)*',
