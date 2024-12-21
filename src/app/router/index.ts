@@ -6,12 +6,4 @@ const router = createRouter({
   routes,
 })
 
-// Add navigation guards to handle transitions
-router.beforeEach((to, from, next) => {
-  // Add a small delay to ensure DOM updates are complete
-  setTimeout(() => {
-    next()
-  }, 50)
-})
-
 export default router
