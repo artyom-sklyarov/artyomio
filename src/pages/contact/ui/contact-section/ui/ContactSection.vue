@@ -2,7 +2,7 @@
     <section :class="styles.main">
       <h1>
         <br />
-        {{ title }} <br />
+        {{ headline }} <br />
         <ContactLink :href="telegram.username" :title="telegram.username" :subtitle="telegram.label" :isPrimaryContact="true" />
         <ContactLink :href="email.address" :title="email.address" :subtitle="email.label" :isPrimaryContact="false" />
         <RouterLink to="/">
@@ -20,5 +20,5 @@ import styles from './styles.module.scss';
 import { RouterLink } from 'vue-router';
 import { ContactLink } from '../../contact-link';
 
-const { contactPage: { title, telegram, email, goBack } } = TEXTS;
+const { contactPage: { email, headline, goBack, telegram } } = TEXTS;
 </script>

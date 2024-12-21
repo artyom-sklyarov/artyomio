@@ -38,6 +38,7 @@ export const TEXTS = {
     headline: "I build web applications for enterprise-scale products. Currently working on telecom and property management platforms.",
   },
   contactPage: {
+    headline: "Contact me",
     telegram: {
       username: "@ArtiomSklyarov",
       label: "telegram"
