@@ -1,0 +1,39 @@
+@forward 'typography';
+@forward 'animations';
+
+:root {
+    --fw-normal: 600;
+    --fw-light: 500;
+    --bg-primary: #000;
+    --color-primary: #fff;
+    --bg-secondary: #fff;
+    --fsz-normal: 1rem;
+    --fsz-big: 2.125rem;
+    --ff: 'Inter';
+    --btn-hover: rgb(51, 51, 51);
+    --color-secondary: #999;
+    --border-color: #333;
+    --transition-y: 8px;
+  } 
+
+body {
+  overflow: hidden;
+  background: var(--bg-primary);
+  font-weight: var(--fw-normal);
+  font-size: var(--fsz-normal);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-primary);
+}
+
+canvas {
+  max-width: 100% !important;
+  max-height: 100% !important;
+} 

@@ -1,0 +1,10 @@
+.details {
+  grid-area: detail;
+  align-self: end;
+  h2 {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+  }
+}
