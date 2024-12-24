@@ -4,7 +4,7 @@ export const TEXTS = {
     workWithMe: "Work with me →",
     socials: [{
       label: "Github",
-      link: "https://github.com/artyomskliarov"
+      link: "https://github.com/artyom-sklyarov"
     },
     {
       label: "LinkedIn",
