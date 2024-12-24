@@ -19,23 +19,23 @@ export const TEXTS = {
       {
         title: "Beeline Russia",
         link: "https://www.beeline.ru",
-        description: "Enhancing User Experience"
+        description: "UX Improvement"
       },
       {
         title: 'Ingosstrakh',
         link: 'https://www.ingosinvest-am.ru',
-        description: 'Insurance Platform Development'
+        description: "Insurance Platform"
       },
       {
         title: "TASS",
         link: "https://www.tass.com",
-        description: "News Platform CMS Development"
+        description: "News Platform CMS"
       }]
   },
 
   homePage: {
     greeting: "👋",
-    headline: "I build web applications for enterprise-scale products. Currently working on telecom and property management platforms.",
+    headline: "I build web applications for enterprise-scale products. Currently working on telecom platforms.",
   },
   contactPage: {
     headline: "Contact me",

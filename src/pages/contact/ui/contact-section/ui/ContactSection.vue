@@ -22,3 +22,4 @@ import { ContactLink } from '../../contact-link';
 
 const { contactPage: { email, headline, goBack, telegram } } = TEXTS;
 </script>
+
