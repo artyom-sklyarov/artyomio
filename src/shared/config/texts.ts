@@ -17,19 +17,20 @@ export const TEXTS = {
     cta: '→',
     experience: [
       {
-        title: "Beeline Russia",
-        link: "https://www.beeline.ru",
-        description: "UX Improvement"
+        title: "Veon",
+        link: "https://www.veon.com",
+        description: "Improving UX and DX. Mentoring junior developers and interns"
       },
       {
         title: 'Ingosstrakh',
         link: 'https://www.ingosinvest-am.ru',
-        description: "Insurance Platform"
+        description: "Reimagining the existing investment platform"
       },
       {
         title: "TASS",
         link: "https://www.tass.com",
-        description: "News Platform CMS"
+        description: "Developing a real-time news feed for journalists"
+
       }]
   },
 
