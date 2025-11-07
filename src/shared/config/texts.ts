@@ -8,28 +8,28 @@ export const TEXTS = {
     },
     {
       label: "LinkedIn",
-      link: "https://www.linkedin.com/in/artyom-sklyarov-898238194"
+      link: "https://www.linkedin.com/in/artyom-sklyarov"
     },
     ],
   },
   workExperience: {
-    title: "PROJECTS I'VE WORKED ON",
+    title: "EXPERIENCE",
     cta: '→',
     experience: [
       {
         title: "Veon",
         link: "https://www.veon.com",
-        description: "Improving UX and DX. Mentoring junior developers and interns"
+        description: "Improving UX and DX"
       },
       {
         title: 'Ingosstrakh',
         link: 'https://www.ingosinvest-am.ru',
-        description: "Reimagining the existing investment platform"
+        description: "Reworking the investment platform"
       },
       {
         title: "TASS",
         link: "https://www.tass.com",
-        description: "Developing a real-time news feed for journalists"
+        description: "Developing a a real-time newswire platform"
 
       }]
   },

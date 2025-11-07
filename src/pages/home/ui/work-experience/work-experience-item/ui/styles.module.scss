@@ -48,7 +48,18 @@
   }
 }
 @media screen and (max-width: 900px) {
+
+ .desc {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+ }
+
   .case-study {
     display: none !important;
+  }
+  p {
+    margin-left: 12px;
+    padding-bottom: 4px;
   }
 }
