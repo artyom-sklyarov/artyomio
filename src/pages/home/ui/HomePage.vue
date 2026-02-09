@@ -1,7 +1,7 @@
 <template>
   <PageLayout>
     <HomeIntro />
-    <WorkExperience />
+    <!-- <WorkExperience /> -->
   </PageLayout>
 </template>
 <script setup lang="ts">
