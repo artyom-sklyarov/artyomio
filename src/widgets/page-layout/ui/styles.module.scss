@@ -9,7 +9,7 @@
   grid-template-rows: 40px auto 40%;
   column-gap: 24px;
   row-gap: 24px;
-  grid-template-areas: 'nav nav nav nav' 'main main main .' 'detail detail detail detail';
+  grid-template-areas: 'nav nav nav nav' 'main main main main' 'detail detail detail detail';
 
   @media screen and (max-width: 900px) {
     & {

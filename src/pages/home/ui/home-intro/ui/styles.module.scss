@@ -43,11 +43,26 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+  .main {
+    align-self: center;
+    padding-left: 2rem;
+  }
+  .resume {
+    margin-top: 1rem;
+  }
+}
+
+  @media screen and (max-width: 900px) {
   .main {
     grid-column-end: span 4;
   }
   .work {
     display: inline-block;
   }
+}
+
+.resume {
+  display: inline-block;
+  line-height: 1.2;
 }

@@ -1,15 +1,11 @@
 <template>
   <section :class="styles.main">
     <h1>
-      <span :class="styles.wave">{{ greeting }}</span>
-      <br />{{ headline }}
+      <!-- <span :class="styles.wave">{{ greeting }}</span> -->
+      software engineer <br/> previously worked at veon, ingos, tass.com<br/>
+      <a :class="styles.resume" href="/cv.pdf"> resume</a>
       <RouterLink to="/contacts" />
     </h1>
-    <RouterLink to="/contacts">
-      <button :class="styles.work">
-        <a>{{ workWithMe }}</a>
-      </button>
-    </RouterLink>
   </section>
 </template>
 
@@ -17,5 +13,5 @@
 import { TEXTS } from '@/shared/config';
 import styles from './styles.module.scss';
 
-const { homePage: { greeting, headline }, navBar: { workWithMe } } = TEXTS
+const { navBar: { workWithMe } } = TEXTS
 </script>
